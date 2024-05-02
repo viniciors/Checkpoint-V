@@ -1,6 +1,5 @@
 import React from 'react';
 import "./style.css"
-import { Link } from '';
 
 const Header = () => {
   return (
@@ -9,10 +8,10 @@ const Header = () => {
         <h1 className="header-title">PANIFICADORA ROGER</h1>
         <h2 className="header-subtitle">Os melhores pães estão aqui</h2>
         <ul className="header-nav">
-          <li><a href='/contato'>Contato</a></li>
-          <li><a href='/sobre'>Sobre</a></li>
-          <li><a href='/produtos'>Produtos</a></li>
-          <li><a href='.'>Home</a></li>
+          <li><a href='.'>HOME</a></li>
+          <li><a href='/sobre'>SOBRE</a></li>
+          <li><a href='/produtos'>PRODUTO</a></li>
+          <li><a href='/contato'>CONTATO</a></li>
         </ul>
         </header>
     </div>

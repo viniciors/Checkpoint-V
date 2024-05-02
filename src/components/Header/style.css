@@ -26,3 +26,17 @@
   .header-nav li {
     cursor: pointer;
   }
+
+  a {
+    border: 2px solid #f8efef;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ec3a3a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #c62828;
+  }

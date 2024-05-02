@@ -18,11 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className= "flex flex-col h-screen">
+      <body className="background-image flex flex-col h-screen">
         <Header />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
