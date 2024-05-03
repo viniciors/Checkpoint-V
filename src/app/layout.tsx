@@ -18,9 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="background-image flex flex-col h-screen">
+      <body>
         <Header />
-        {children}
+        <div className="backgroundImage">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

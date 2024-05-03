@@ -18,8 +18,8 @@
   }
   
   figure {
-    margin-top: 50px;
-    width: 45%;
+    margin: 50px 50px 20px 20px;
+    width: 60%;
   }
   
   figure img {
@@ -42,4 +42,19 @@
   .texto {
     font-size: 1.125rem;
     line-height: 1.5;
+  }
+
+  @media screen and (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+    }
+
+    .text {
+      width: 70%;
+    }
+
+    figure {
+      width: 70%;
+    }
+  
   }

@@ -8,6 +8,7 @@ const Contato = () => {
     const [address, setAddress] = useState('');
     const [phone, setPhone] = useState('');
     const [cep, setCep] = useState('');
+    const [message, setMessage] = useState('');
 
     const changeName = (event: any) => {
         setName(event.target.value);
@@ -21,6 +22,9 @@ const Contato = () => {
     const changeCep = (event: any) => {
         setCep(event.target.value);
     };
+    const changeMessage = (event: any) => {
+        setMessage(event.target.value);
+    };
 
     return (
         <section className="m-4">
@@ -32,9 +36,10 @@ const Contato = () => {
             <Form label="Endereço" value={address} onChange={changeAddress} />
             <Form label="Telefone" value={phone} onChange={changePhone} />
             <Form label="CEP" value={cep} onChange={changeCep} />
+            <Form label="Mensagem" value={message} onChange={changeMessage} />
 
             <footer>
-                <Button text="Enviar" onClick={null} />
+                <Button text="Enviar" onClick={() => alert("Mensagem enviada!")} />
             </footer>
             
         </section>
